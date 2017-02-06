@@ -4,7 +4,7 @@
 This is a sample prject used in Pearson Lanka Worksop with University Students.
 
 
-## Setup Envirnoment 
+## Setup Environment 
 
 ### <i class="icon-hdd"></i> Software needed
 	+ NodeJS
@@ -12,7 +12,7 @@ This is a sample prject used in Pearson Lanka Worksop with University Students.
 
 ## Folders
 	+ training 
-		contains files for the training
+		Contains files for the training
 	+ src
-		converted training files to industry level application using build tools 
+		Converted training files to industry level application using build tools 
 

@@ -1,0 +1,83 @@
+
+.weather-area {
+    background-image: url(../img/sky.jpg);
+    background-repeat: no-repeat;
+    display: block;
+    width: 800px;
+    height: 600px;
+    background-size: 100%;
+    color: #fff;
+}
+
+.weather-area .pull-left {
+    padding-top: 20px;
+    width: 50%;
+    text-align: center;
+}
+
+.weather-area .pull-right {
+    padding-top: 10px;
+    width: 48%;
+    text-align: center;
+}
+
+.weather-area .loc-input {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.weather-area .loc-input .input-group {
+    width: 60%;
+    padding-left: 30%;
+}
+
+weather-today .summary {
+
+}
+
+weather-today .summary .loc {
+
+}
+
+weather-today .summary .loc span {
+    display: block;
+}
+
+weather-today .summary .img-icon img {
+    width: 80px;
+}
+
+weather-today .summary .temp {
+    font-size: 25px;
+    font-weight: bold
+}
+
+weather-today .summary .name {
+    font-size: 20px;
+}
+
+weather-today .summary .desc {
+    font-size: 12px;
+}
+
+weather-today .summary .detail {
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+
+/* weather-forecast */
+
+weather-forecast .forecast {
+    padding: 0 10%;
+}
+
+weather-forecast .list-wrapper{
+    height: 256px;
+    overflow: auto;
+}
+
+weather-forecast .list-group-item {
+    background-color: transparent;
+    padding: 0;
+}

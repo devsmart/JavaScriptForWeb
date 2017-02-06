@@ -1,0 +1,12 @@
+<div class="forecast">
+    <h4>Weather Forecast</h4>
+
+    <div class="list-wrapper">
+        <ul class="list-group">
+            <li ng-repeat='n in forcastData.list' class="list-group-item">
+                <span>{{n.dt | date : "d, EEE h:mm a"}} <img
+                        ng-src="http://openweathermap.org/img/w/{{n.weather[0].icon}}.png"/> | {{n.main.temp}} °C | {{n.weather[0].main}}</span>
+            </li>
+        </ul>
+    </div>
+</div>

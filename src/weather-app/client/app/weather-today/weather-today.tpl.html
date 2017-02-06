@@ -1,0 +1,23 @@
+<div class="summary">
+    <div class="loc">
+        <span>{{data.name}}, {{data.sys.country}}</span>
+        <span>{{data.dt | date : "h:mm a"}}</span><!--http://www.w3schools.com/angular/ng_filter_date.asp-->
+    </div>
+
+    <div>
+        <div class="img-icon"><img ng-src="http://openweathermap.org/img/w/{{data.weather[0].icon}}.png" /> </div>
+        <div class="temp">{{data.main.temp}} °C</div>
+
+        <div class="name">{{data.weather[0].main}}</div>
+        <div class="desc">{{data.weather[0].description}}</div>
+        <div class="detail">
+                <span>
+                    Humidity : {{data.main.humidity}} % | Clouds : {{data.clouds.all}} %
+                </span>
+        </div>
+        <div>
+
+        </div>
+    </div>
+</div>
+
